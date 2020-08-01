@@ -9,9 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3915791996466716479}
-  - component: {fileID: 3940096732205929804}
   m_Layer: 0
-  m_Name: PatrolGuard
+  m_Name: GuardBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,21 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3940096732205929804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3764495022703338153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e724c2187e18d474c80f33a890bc7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointA: {fileID: 0}
-  pointB: {fileID: 0}
-  navMeshAgent: {fileID: 0}
 --- !u!1001 &2915668494500529339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102,6 +86,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95812470430208240, guid: 3fc233a9407d11f46a1983e4692babf9,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1c50df4be4ba73f42b29f8471c2a3f22, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fc233a9407d11f46a1983e4692babf9, type: 3}
 --- !u!4 &2916477768485612859 stripped
